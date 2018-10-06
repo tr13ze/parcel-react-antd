@@ -1,0 +1,32 @@
+{
+  "author": "tr13ze",
+  "name": "parcel-react-antd",
+  "license": "MIT",
+  "description": "Boilerplate Parcel, React and Ant Design",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [
+    "parcel",
+    "react",
+    "less",
+    "antD"
+  ],
+  "dependencies": {
+    "antd": "^3.10.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-import": "^1.9.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "less": "^3.8.1",
+    "parcel-bundler": "^1.10.2"
+  },
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --out-dir build --no-cache",
+    "clear": "rm -rf .cache && rm -rf dist"
+  }
+}
