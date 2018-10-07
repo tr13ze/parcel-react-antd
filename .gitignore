@@ -11,5 +11,6 @@ yarn.lock
 .Spotlight-V100
 .Trashes
 .vscode
+.cache
 ehthumbs.db
 Thumbs.db
