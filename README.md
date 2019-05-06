@@ -1,5 +1,5 @@
 # Boilerplate Parcel, React and Ant Design
-> This is a boilerplate for React, LESS,  ParcelJS and Ant Design.
+> This is a boilerplate for React, SASS or LESS, ParcelJS and Ant Design.
 
 ## Quick Start
 
@@ -15,18 +15,25 @@ npm run build
 
 # Clear files '/dist' and '.cache'
 npm run clear
+
+# LESS to SASS <=> SASS to LESS
+LESS version: remplace *.scss to *.less
+SASS version: remplace *.less to *.scss
 ```
 
 ## App Info
 
+- [Ant Design](https://ant.design/)
+- [BabelJS](https://babeljs.io/)
+- [ParcelJS](https://parceljs.org/)
+
 ### Author
 
-Chris Meyer
-[tr13ze](http://www.tr13ze.com)
+Chris Meyer [tr13ze](http://www.tr13ze.com)
 
 ### Version
 
-1.0.0
+1.0.1
 
 ### License
 

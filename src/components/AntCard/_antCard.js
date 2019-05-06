@@ -1,8 +1,8 @@
 import React from 'react'
 import { Card } from 'antd'
 
-const AntCard = () => (
+const _antCard = () => (
     <Card title="Card title">Card content</Card>
 );
 
-export default AntCard
+export default _antCard

@@ -1,0 +1,12 @@
+@import './partials/variables';
+@import './components/AntCard/_antCard';
+
+html, body {
+  background-color: $bg-def-color;
+  color: $txt-def-color;
+  font-size: $font-def-size;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}

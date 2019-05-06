@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import AntCard from './components/AntCard/antCard';
-import './index.less'
+import AntCard from './components/AntCard/_antCard';
+import './index.scss'
 
 const App = () => 
   <div>
